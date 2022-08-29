@@ -7,7 +7,6 @@ var input_two=$('#nav-two')
 var input_three=$('#nav-three')
 
 function confirmScreen(){
-  console.log('oi')
 input_one.checked == true ? screen_one.classList.remove('invisible'):screen_one.classList.add('invisible')
 input_two.checked == true ? screen_two.classList.remove('invisible'):screen_two.classList.add('invisible')
 input_three.checked == true ? $('.continue_button').classList.add('invisible'):$('.continue_button').classList.remove('invisible')
