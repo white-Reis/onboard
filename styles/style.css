@@ -63,7 +63,7 @@ img {
   background: #92E3A9;
 }
 
-.continue_button {
+.all_button {
   font-size: 1rem;
   font-weight: 500;
   color: white;
@@ -75,7 +75,7 @@ img {
   border: none;
 }
 
-.continue_button:active {
+.all_button:active {
   box-shadow: none;
 }
 
@@ -88,7 +88,9 @@ img {
   background: none;
 }
 
-
+.last_page {
+  content: "";
+}
 
 .invisible {
   display: none;
