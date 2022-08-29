@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <script defer src="/main.js"></script>
+  <title>Onboarding</title>
+</head>
+<body>
+  <div id="page_one" class="content" >
+    <img src="/images/Online world-pana (1) 1.svg" alt="peoples of community ">
+    <h1 class="title">Plant lover Community</h1>
+    <p class="description">Find gardening enthusiasts from all over the world</p>
+  </div>
+  <div id="page_two" class="content invisible" >
+    <img src="/images/In no time-pana 1.svg" alt="">
+    <h1 class="title">Get fast & safe delivery</h1>
+    <p class="description">Get good quality products for your plants </p>
+  </div>
+  <div id="page_three" class="content invisible" >
+    <img src="/images/Ecommerce campaign-cuate 1.svg" alt="ecommerce campaign">
+    <h1 class="title">Buy & Sell Tools</h1>
+    <p class="description">Buy & sell good quality products for your beautiful plants</p>S
+  </div>
+  <div class="nav">
+    <input class="invisible" id="nav-one" name="nav" type="radio" checked>
+    <label class="nav_item" id="item-one" for="nav-one"></label>
+    <input class="invisible" id="nav-two" name="nav" type="radio">
+    <label class="nav_item" id="item-two" for="nav-two"></label>
+    <input class="invisible" id="nav-three" name="nav" type="radio">
+    <label class="nav_item" id="item-three" for="nav-three"></label>
+  </div>
+  <button onclick="buttonMove(0)" class="continue_button">Continue</button>
+  <button class="skip_button">Skip</button>
+</body>
+</html>
